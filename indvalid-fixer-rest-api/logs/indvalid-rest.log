@@ -1,0 +1,160 @@
+[2019-01-29@17:57:21.216] [main] [INFO ] [c.i.i.rest.IndvalidRestApp:48] [] Starting IndvalidRestApp on aaron-HP-ProBook-640-G1 with PID 26170 (/home/aaron/eclipse-workspace/indvalid-fixer/indvalid-fixer-rest-api/target/classes started by aaron in /home/aaron/eclipse-workspace/indvalid-fixer/indvalid-fixer-rest-api)
+[2019-01-29@17:57:21.219] [main] [DEBUG] [c.i.i.rest.IndvalidRestApp:51] [] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2019-01-29@17:57:21.220] [main] [INFO ] [c.i.i.rest.IndvalidRestApp:597] [] The following profiles are active: indvalid-jms
+[2019-01-29@17:57:21.288] [main] [INFO ] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] [] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f177a4b: startup date [Tue Jan 29 17:57:21 CST 2019]; root of context hierarchy
+[2019-01-29@17:57:22.914] [main] [INFO ] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327] [] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4d4c0d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-01-29@17:57:22.959] [main] [INFO ] [o.s.w.s.a.s.AnnotationActionEndpointMapping:236] [] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2019-01-29@17:57:22.976] [main] [INFO ] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8b44862] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-01-29@17:57:23.498] [main] [INFO ] [o.s.b.c.e.t.TomcatEmbeddedServletContainer:89] [] Tomcat initialized with port(s): 8080 (http)
+[2019-01-29@17:57:23.598] [localhost-startStop-1] [INFO ] [o.s.w.c.ContextLoader:276] [] Root WebApplicationContext: initialization completed in 2311 ms
+[2019-01-29@17:57:23.851] [localhost-startStop-1] [INFO ] [o.s.b.w.s.ServletRegistrationBean:190] [] Mapping servlet: 'dispatcherServlet' to [/]
+[2019-01-29@17:57:23.853] [localhost-startStop-1] [INFO ] [o.s.b.w.s.ServletRegistrationBean:190] [] Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+[2019-01-29@17:57:23.857] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'metricsFilter' to: [/*]
+[2019-01-29@17:57:23.858] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2019-01-29@17:57:23.858] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2019-01-29@17:57:23.858] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2019-01-29@17:57:23.859] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'requestContextFilter' to: [/*]
+[2019-01-29@17:57:23.859] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2019-01-29@17:57:23.859] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2019-01-29@17:57:24.007] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:350] [] Properties configuration failed validation
+[2019-01-29@17:57:24.007] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'contact': rejected value [null]; codes [NotNull.swagger.metadata.contact,NotNull.contact,NotNull.com.indigo.indvalid.rest.property.SwaggerProperty$Contact,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.contact,contact]; arguments []; default message [contact]]; default message [no puede ser null]
+[2019-01-29@17:57:24.008] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'description': rejected value [null]; codes [NotNull.swagger.metadata.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.description,description]; arguments []; default message [description]]; default message [no puede ser null]
+[2019-01-29@17:57:24.008] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'version': rejected value [null]; codes [NotNull.swagger.metadata.version,NotNull.version,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.version,version]; arguments []; default message [version]]; default message [no puede ser null]
+[2019-01-29@17:57:24.008] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'tag': rejected value [null]; codes [NotNull.swagger.metadata.tag,NotNull.tag,NotNull.com.indigo.indvalid.rest.property.SwaggerProperty$Tag,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.tag,tag]; arguments []; default message [tag]]; default message [no puede ser null]
+[2019-01-29@17:57:24.009] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'pathMapping': rejected value [null]; codes [NotNull.swagger.metadata.pathMapping,NotNull.pathMapping,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.pathMapping,pathMapping]; arguments []; default message [pathMapping]]; default message [no puede ser null]
+[2019-01-29@17:57:24.009] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'title': rejected value [null]; codes [NotNull.swagger.metadata.title,NotNull.title,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.title,title]; arguments []; default message [title]]; default message [no puede ser null]
+[2019-01-29@17:57:24.009] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'config': rejected value [null]; codes [NotNull.swagger.metadata.config,NotNull.config,NotNull.com.indigo.indvalid.rest.property.SwaggerProperty$Config,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.config,config]; arguments []; default message [config]]; default message [no puede ser null]
+[2019-01-29@17:57:24.009] [main] [ERROR] [o.s.b.b.PropertiesConfigurationFactory:352] [] Field error in object 'swagger.metadata' on field 'regexPath': rejected value [null]; codes [NotNull.swagger.metadata.regexPath,NotNull.regexPath,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.regexPath,regexPath]; arguments []; default message [regexPath]]; default message [no puede ser null]
+[2019-01-29@17:57:24.011] [main] [WARN ] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:551] [] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restConfig': Unsatisfied dependency expressed through field 'swaggerProperty'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swaggerProperty': Could not bind properties to SwaggerProperty (prefix=swagger.metadata, ignoreInvalidFields=false, ignoreUnknownFields=true, ignoreNestedProperties=false); nested exception is org.springframework.validation.BindException: org.springframework.boot.bind.RelaxedDataBinder$RelaxedBeanPropertyBindingResult: 8 errors
+Field error in object 'swagger.metadata' on field 'contact': rejected value [null]; codes [NotNull.swagger.metadata.contact,NotNull.contact,NotNull.com.indigo.indvalid.rest.property.SwaggerProperty$Contact,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.contact,contact]; arguments []; default message [contact]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'description': rejected value [null]; codes [NotNull.swagger.metadata.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.description,description]; arguments []; default message [description]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'version': rejected value [null]; codes [NotNull.swagger.metadata.version,NotNull.version,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.version,version]; arguments []; default message [version]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'tag': rejected value [null]; codes [NotNull.swagger.metadata.tag,NotNull.tag,NotNull.com.indigo.indvalid.rest.property.SwaggerProperty$Tag,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.tag,tag]; arguments []; default message [tag]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'pathMapping': rejected value [null]; codes [NotNull.swagger.metadata.pathMapping,NotNull.pathMapping,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.pathMapping,pathMapping]; arguments []; default message [pathMapping]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'title': rejected value [null]; codes [NotNull.swagger.metadata.title,NotNull.title,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.title,title]; arguments []; default message [title]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'config': rejected value [null]; codes [NotNull.swagger.metadata.config,NotNull.config,NotNull.com.indigo.indvalid.rest.property.SwaggerProperty$Config,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.config,config]; arguments []; default message [config]]; default message [no puede ser null]
+Field error in object 'swagger.metadata' on field 'regexPath': rejected value [null]; codes [NotNull.swagger.metadata.regexPath,NotNull.regexPath,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [swagger.metadata.regexPath,regexPath]; arguments []; default message [regexPath]]; default message [no puede ser null]
+[2019-01-29@17:57:24.032] [main] [INFO ] [o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101] [] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2019-01-29@17:57:24.039] [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter:42] [] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target SwaggerProperty(regexPath=null, pathMapping=null, tag=null, config=null, title=null, description=null, version=null, contact=null) failed:
+
+    Property: swagger.metadata.contact
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.description
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.version
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.tag
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.pathMapping
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.title
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.config
+    Value: null
+    Reason: no puede ser null
+
+    Property: swagger.metadata.regexPath
+    Value: null
+    Reason: no puede ser null
+
+
+Action:
+
+Update your application's configuration
+
+[2019-01-29@18:04:00.251] [main] [INFO ] [c.i.i.rest.IndvalidRestApp:48] [] Starting IndvalidRestApp on aaron-HP-ProBook-640-G1 with PID 26392 (/home/aaron/eclipse-workspace/indvalid-fixer/indvalid-fixer-rest-api/target/classes started by aaron in /home/aaron/eclipse-workspace/indvalid-fixer/indvalid-fixer-rest-api)
+[2019-01-29@18:04:00.254] [main] [DEBUG] [c.i.i.rest.IndvalidRestApp:51] [] Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2019-01-29@18:04:00.254] [main] [INFO ] [c.i.i.rest.IndvalidRestApp:597] [] The following profiles are active: rest-api,rest-error,indvalid-jms,swagger
+[2019-01-29@18:04:00.312] [main] [INFO ] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] [] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Tue Jan 29 18:04:00 CST 2019]; root of context hierarchy
+[2019-01-29@18:04:01.999] [main] [INFO ] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327] [] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8cb6b742] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-01-29@18:04:02.040] [main] [INFO ] [o.s.w.s.a.s.AnnotationActionEndpointMapping:236] [] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2019-01-29@18:04:02.056] [main] [INFO ] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327] [] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e81ef243] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-01-29@18:04:02.556] [main] [INFO ] [o.s.b.c.e.t.TomcatEmbeddedServletContainer:89] [] Tomcat initialized with port(s): 8581 (http)
+[2019-01-29@18:04:02.690] [localhost-startStop-1] [INFO ] [o.s.w.c.ContextLoader:276] [] Root WebApplicationContext: initialization completed in 2378 ms
+[2019-01-29@18:04:03.014] [localhost-startStop-1] [INFO ] [o.s.b.w.s.ServletRegistrationBean:190] [] Mapping servlet: 'dispatcherServlet' to [/]
+[2019-01-29@18:04:03.016] [localhost-startStop-1] [INFO ] [o.s.b.w.s.ServletRegistrationBean:190] [] Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+[2019-01-29@18:04:03.020] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'metricsFilter' to: [/*]
+[2019-01-29@18:04:03.021] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2019-01-29@18:04:03.021] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2019-01-29@18:04:03.022] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2019-01-29@18:04:03.022] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'requestContextFilter' to: [/*]
+[2019-01-29@18:04:03.022] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2019-01-29@18:04:03.023] [localhost-startStop-1] [INFO ] [o.s.b.w.s.FilterRegistrationBean:258] [] Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2019-01-29@18:04:03.852] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] [] Mapped "{[/indvalid/sendMessage],methods=[POST],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.indigo.indvalid.jms.model.Message> com.indigo.indvalid.rest.controller.MessengerController.sendMessage(com.indigo.indvalid.jms.model.Message)
+[2019-01-29@18:04:03.858] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] [] Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+[2019-01-29@18:04:03.859] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] [] Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+[2019-01-29@18:04:03.860] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] [] Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+[2019-01-29@18:04:03.868] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] [] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2019-01-29@18:04:03.869] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] [] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2019-01-29@18:04:04.110] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.114] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+[2019-01-29@18:04:04.115] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+[2019-01-29@18:04:04.115] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.117] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+[2019-01-29@18:04:04.118] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+[2019-01-29@18:04:04.119] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.120] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.121] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.122] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[2019-01-29@18:04:04.123] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.124] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[2019-01-29@18:04:04.125] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.126] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.127] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[2019-01-29@18:04:04.128] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.129] [main] [INFO ] [o.s.b.a.e.m.EndpointHandlerMapping:543] [] Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[2019-01-29@18:04:04.338] [main] [INFO ] [c.i.i.rest.RestConfig:81] [] Indvalid Rest API version 0.0.1-SNAPSHOT , paths /indvalid.*
+[2019-01-29@18:04:04.641] [main] [INFO ] [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] [] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Tue Jan 29 18:04:00 CST 2019]; root of context hierarchy
+[2019-01-29@18:04:04.711] [main] [INFO ] [o.s.w.s.h.SimpleUrlHandlerMapping:362] [] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2019-01-29@18:04:04.712] [main] [INFO ] [o.s.w.s.h.SimpleUrlHandlerMapping:362] [] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2019-01-29@18:04:04.733] [main] [INFO ] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:273] [] Detected @ExceptionHandler methods in restExceptionHandler
+[2019-01-29@18:04:04.767] [main] [INFO ] [o.s.w.s.h.SimpleUrlHandlerMapping:362] [] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2019-01-29@18:04:05.199] [main] [INFO ] [o.s.j.e.a.AnnotationMBeanExporter:431] [] Registering beans for JMX exposure on startup
+[2019-01-29@18:04:05.207] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:431] [] Registering beans for JMX exposure on startup
+[2019-01-29@18:04:05.212] [main] [INFO ] [o.s.c.s.DefaultLifecycleProcessor:343] [] Starting beans in phase 0
+[2019-01-29@18:04:05.216] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+[2019-01-29@18:04:05.233] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[2019-01-29@18:04:05.246] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[2019-01-29@18:04:05.252] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[2019-01-29@18:04:05.258] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[2019-01-29@18:04:05.262] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[2019-01-29@18:04:05.267] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+[2019-01-29@18:04:05.274] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[2019-01-29@18:04:05.279] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[2019-01-29@18:04:05.282] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[2019-01-29@18:04:05.286] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[2019-01-29@18:04:05.290] [main] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:678] [] Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[2019-01-29@18:04:05.293] [main] [INFO ] [o.s.c.s.DefaultLifecycleProcessor:343] [] Starting beans in phase 2147483647
+[2019-01-29@18:04:05.927] [main] [INFO ] [o.s.b.c.e.t.TomcatEmbeddedServletContainer:201] [] Tomcat started on port(s): 8581 (http)
+[2019-01-29@18:04:05.937] [main] [INFO ] [c.i.i.rest.IndvalidRestApp:57] [] Started IndvalidRestApp in 6.107 seconds (JVM running for 6.483)
+[2019-01-29@18:04:17.995] [http-nio-8581-exec-1] [INFO ] [o.s.w.s.DispatcherServlet:489] [] FrameworkServlet 'dispatcherServlet': initialization started
+[2019-01-29@18:04:18.013] [http-nio-8581-exec-1] [INFO ] [o.s.w.s.DispatcherServlet:508] [] FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+[2019-01-29@18:04:27.068] [Thread-6] [INFO ] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984] [] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@147ed70f: startup date [Tue Jan 29 18:04:00 CST 2019]; root of context hierarchy
+[2019-01-29@18:04:27.071] [Thread-6] [INFO ] [o.s.c.s.DefaultLifecycleProcessor:358] [] Stopping beans in phase 2147483647
+[2019-01-29@18:04:27.083] [DefaultMessageListenerContainer-1] [WARN ] [o.s.j.l.DefaultMessageListenerContainer:880] [] Setup of JMS message listener invoker failed for destination 'indvalid.queue' - trying to recover. Cause: peer (vm://embedded#1) stopped.
+[2019-01-29@18:04:27.084] [Thread-6] [INFO ] [o.s.c.s.DefaultLifecycleProcessor:358] [] Stopping beans in phase 0
+[2019-01-29@18:04:27.085] [Thread-6] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:449] [] Unregistering JMX-exposed beans on shutdown
+[2019-01-29@18:04:27.086] [Thread-6] [INFO ] [o.s.b.a.e.j.EndpointMBeanExporter:241] [] Unregistering JMX-exposed beans
+[2019-01-29@18:04:27.086] [Thread-6] [INFO ] [o.s.j.e.a.AnnotationMBeanExporter:449] [] Unregistering JMX-exposed beans on shutdown
