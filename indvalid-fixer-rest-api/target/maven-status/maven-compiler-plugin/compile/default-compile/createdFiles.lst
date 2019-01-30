@@ -1,0 +1,12 @@
+com\indigo\indvalid\rest\exception\handler\RestExceptionHandler.class
+com\indigo\indvalid\rest\RestConfig.class
+com\indigo\indvalid\rest\util\LogVariable.class
+com\indigo\indvalid\rest\exception\FieldErrorDto.class
+com\indigo\indvalid\rest\property\SwaggerProperty.class
+com\indigo\indvalid\rest\IndvalidRestApp.class
+com\indigo\indvalid\rest\controller\MessengerController.class
+com\indigo\indvalid\rest\property\SwaggerProperty$Tag.class
+com\indigo\indvalid\rest\exception\ErrorResponseDto.class
+com\indigo\indvalid\rest\exception\ValidationErrorResponseDto.class
+com\indigo\indvalid\rest\property\SwaggerProperty$Contact.class
+com\indigo\indvalid\rest\property\SwaggerProperty$Config.class
