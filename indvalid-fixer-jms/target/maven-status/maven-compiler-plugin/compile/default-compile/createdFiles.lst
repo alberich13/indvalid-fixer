@@ -1,4 +1,0 @@
-com\indigo\indvalid\jms\error\JmsErrorHandler.class
-com\indigo\indvalid\jms\model\Message.class
-com\indigo\indvalid\jms\service\MessagerProcessorService.class
-com\indigo\indvalid\jms\IndvalidJmsConfig.class
