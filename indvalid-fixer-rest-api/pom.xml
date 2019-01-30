@@ -27,7 +27,7 @@
 		<!-- INDVALID DEPENDENCIES -->
 		<dependency>
 			<groupId>com.indigo</groupId>
-			<artifactId>indvalid-jms</artifactId>
+			<artifactId>indvalid-fixer-jms</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
