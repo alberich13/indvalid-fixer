@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.10.RELEASE</version>
 	</parent>
-	
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.indigo</groupId>
 	<artifactId>indvalid-fixer</artifactId>
@@ -20,7 +20,7 @@
 		<module>indvalid-fixer-jms</module>
 		<module>indvalid-fixer-rest-api</module>
 	</modules>
-	
+
 	<properties>
 		<!-- Project Properties -->
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -29,6 +29,50 @@
 		<project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
 		<springfox.swagger.version>2.8.0</springfox.swagger.version>
 	</properties>
+
+	<dependencies>
+		<!-- TEST -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- TEST -->
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <scope>test</scope>
+		</dependency>
+		<!-- SWAGGER DEPENDENCIES -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${springfox.swagger.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${springfox.swagger.version}</version>
+		</dependency>
+		<!-- LOMBOK DEPENDENCIES -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- LOGGER -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
